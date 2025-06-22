@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Cadastro - Orkut</title>
+  <link rel="stylesheet" href="cadastro.css">
+</head>
+<body>
+  <div class="container">
+    <h1 class="logo">orkut</h1>
+    <form class="cadastro-form" method="POST" action="criar_usuario.php" enctype="multipart/form-data">
+      <label for="usuario">Usuário:</label>
+      <input type="text" id="usuario" name="usuario" required>
+
+      <label for="nome">Nome completo:</label>
+      <input type="text" id="nome" name="nome" required>
+
+      <label for="senha">Senha:</label>
+      <input type="password" id="senha" name="senha" required>
+
+      <label for="foto">Foto:</label>
+      <input type="file" id="foto" name="foto" accept="image/*">
+
+      <div class="botoes">
+        <button type="submit">Criar nova conta</button>
+        
+      </div>
+      <br>
+        <button type="button" onclick="window.location.href='index.html'">Fazer Login</button>
+    </form>
+  </div>
+</body>
+</html>

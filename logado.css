@@ -1,0 +1,125 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #dce7f8;
+  color: #333;
+}
+
+.container {
+  display: flex;
+  padding: 20px;
+  gap: 20px;
+}
+
+.perfil {
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  width: 200px;
+  text-align: center;
+}
+
+.perfil img {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  border-radius: 50%;
+  margin: 0 auto;
+  display: block;
+}
+
+
+.perfil h2 {
+  font-size: 18px;
+  margin-top: 10px;
+}
+
+.perfil ul {
+  list-style: none;
+  padding: 0;
+  margin-top: 15px;
+}
+
+.perfil li {
+  margin: 10px 0;
+  font-size: 14px;
+}
+
+.perfil a {
+  text-decoration: none;
+  color: #000;
+}
+
+.conteudo {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.info {
+  background: white;
+  padding: 15px;
+  border-radius: 10px;
+}
+
+.mensagem {
+  display: flex;
+  background: white;
+  padding: 15px;
+  border-radius: 10px;
+  align-items: flex-start;
+}
+
+.mensagem img {
+  width: 60px;
+  border-radius: 5px;
+  margin-right: 15px;
+}
+
+.mensagem p {
+  margin: 5px 0;
+}
+
+.mensagem a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+.amigos {
+  width: 200px;
+  background: white;
+  padding: 15px;
+  border-radius: 10px;
+}
+
+.amigos h3 {
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+.lista-amigos {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.amigo {
+  width: 80px;
+  font-size: 12px;
+  text-align: center;
+}
+
+.amigo img {
+  width: 100%;
+  border-radius: 5px;
+}
+
+.ver-todos {
+  display: block;
+  margin-top: 10px;
+  text-align: center;
+  font-size: 13px;
+  text-decoration: none;
+  color: #007bff;
+}
